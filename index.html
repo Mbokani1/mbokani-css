@@ -24,14 +24,23 @@
    <div class="section2">
     <div class="section2-content">The whole place just for you</div>
     <div class="input-container">
-        <input class="input" type="text" value="where is it supposed to go?">
+        <input class="input" type="text" placeholder="where is it supposed to go?">
     <div class="input-position1"></div>
     
-    </input>
-        <i class="fa-duotone fa-solid fa-calendar"></i><input class="input" type="text" value="yy / mm / dd" /> 
-        <input class="input" type="text" placeholder="2 travellers">
-        <button class="btn-search">Searc</button>
-        
+    <div style="display: flex; gap: 10px; align-items: center; font-family: sans-serif;">
+
+        <!-- Calendar Icon -->
+        <i class="fa-solid fa-calendar" style="font-size: 18px;"></i>
+      
+        <Date Picker >
+        <input class="input" type="date" />
+      
+        <!-- Travellers Input -->
+        <input class="input" type="text" placeholder="2 travellers" />
+      
+        <!-- Search Button -->
+        <button class="btn-search">Search</button>
+      </div>
        
     </div>
     </div>
@@ -45,37 +54,32 @@
         <button class="btn-search">Announce<dd/button>
     </div>
     <h4>Find accommodations to suit your taste</h4>
-    <div class="flex-container">
-    <div class="card-photo">
-        <img src="image/img7.jpeg" alt="">
-        <span class="card-tex">holiday home</span>
-        </img>
-    </div>
-    <div class="card-photo">
-        <img src="image/img1.jpg" alt="">
-        <span class="card-tex">holiday apartment/partment</span>
-        </img>
-    </div>
-    <div class="card-photo">
-        <img src="image/img3.jpg" alt="">
-        <span class="card-tex">holiday cabin</span>
-        </img>
-    </div>
-    <div class="card-photo">
-        <img src="image/img9.jpg" alt="">
-        <span class="card-tex">villa</span>
-        </img>
-    </div>
-    <div class="card-photo">
-        <img src="image/img6.jpg" alt="">
-        <span class="card-tex">villa</span>
-        </img>
-    </div>
-    </div>
+<div class="flex-container">
+  <div class="card-photo">
+    <img src="image/img7.jpeg" alt="holiday home">
+    <span class="card-text">holiday home</span>
+  </div>
+  <div class="card-photo">
+    <img src="image/img1.jpg" alt="holiday apartment">
+    <span class="card-text">holiday apartment</span>
+  </div>
+  <div class="card-photo">
+    <img src="image/img3.jpg" alt="holiday cabin">
+    <span class="card-text">holiday cabin</span>
+  </div>
+  <div class="card-photo">
+    <img src="image/img9.jpg" alt="villa">
+    <span class="card-text">villa</span>
+  </div>
+  <div class="card-photo">
+    <img src="image/img6.jpg" alt="villa">
+    <span class="card-text">villa</span>
+  </div>
+</div>
 <h4>Germany: Highly-rated properties for your search</h4>
     <div class="flex-container">
     <div class="card-photo">
-        <img src="image/img13.jpg" alt="">
+        <img src="image/img9.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Exceptional
@@ -119,7 +123,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="image/img8.jpg" alt="">
+        <img src="image/img15.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Exceptional
@@ -134,7 +138,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="image/img15.jpg" alt="">
+        <img src="image/img8.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Exceptional
@@ -171,7 +175,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="image/img7.jpeg" alt="">
+        <img src="image/img8.jpg" alt="">
         <span class="card-text">Ocean Front Condo on the Sand with Ocean View
 San Diego, CA
 The price is €1,868.
@@ -185,17 +189,30 @@ incl. taxes & fees
     </div>
     </div>
     
-    <div class="card-photo12">
-        <div class="card-photo1">
-        <span class="card-text">VACATION RENTALS NEAR THE LAKE
-        Find your vacation rental for a summer by the water
-        </span>
-        
-    </div>
     
-    <div class="card-photo2">
-        <span class="card-text">3 TIPS TO SAVE MONEY
-                Save on your next vacation with these three discounts
+        
+    <div style="max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; gap: 20px; font-family: sans-serif;">
+
+        <div style="width: 500px; border: 1px solid #edf7ec; border-radius: 6px; overflow: hidden; background: #fff;">
+          <img src="image/img9.jpg" alt="Lake Vacation"
+           style="width: 100%; display: block;">
+          <div style="padding: 14px; font-size: 15px; color: hsl(0, 6%, 47%);">
+            <strong style="display: block; margin-bottom: 6px;"> VOCATION RENTALS NEAR THE LAKE</strong>
+            Find a perfect rental spot for your summer by the water.
+          </div>
+        </div>
+      
+        <div style="width: 500px; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background:
+         #fff;">
+          <img src="image/img6.jpg" alt="Mountain Cabin" 
+          style="width: 100%; display: block;">
+          <div style="padding: 14px; font-size: 15px; color: #333;">
+            <strong style="display: block; margin-bottom: 6px;">3 TIPS TO SAVE MONEY</strong>
+            Save on your next vacation with these three discounts
+          </div>
+        </div>
+      
+      </div>
 </span>
         
         </div>
@@ -220,7 +237,7 @@ Airy</span>
         </img>
     </div>
     <div class="card-photo">
-        <img src="image/img8.jpg" alt="">
+        <img src="image/img9.jpg" alt="">
         <span class="card-text">Our rustic, nautical cottage is perfect for family fun on the North Shore!
 Eureka, CA
 The price is 948 €.
@@ -231,7 +248,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="image/img8.jpg" alt="">
+        <img src="image/img14.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Exceptional
@@ -246,7 +263,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="./Assets/img8.jpeg" alt="">
+        <img src="image/img1.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Exceptional
@@ -261,7 +278,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="./Assets/img8.jpeg" alt="">
+        <img src="image/img3.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Exceptional
@@ -276,7 +293,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="./Assets/img8.jpeg" alt="">
+        <img src="image/img7.jpeg" alt="">
         <span class="card-text">9,8
 9,8 out of 10 rating
 Exceptional
@@ -291,7 +308,7 @@ incl. taxes & fees
         </img>
     </div>
     <div class="card-photo">
-        <img src="./Assets/img8.jpeg" alt="">
+        <img src="image/img8.jpg" alt="">
         <span class="card-text">10
 10 out of 10 rating
 Außergewöhnlich
@@ -343,7 +360,7 @@ inkl. Steuern & Gebühren
         <h5>villa and apartments</h5>
         <i class="fa-solid fa-angle-down"></i>
     </div>
-    <img class="logo" src="./Assets/logo.svg" alt="logo">
+    <img class="logo" src="image/logo.svg" alt="logo">
     <div class="last-section">
         
         <h5 >Explore FeWo-direkt</h5>

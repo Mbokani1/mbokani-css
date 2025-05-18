@@ -216,7 +216,7 @@ gap:10px;
 
 
 .card-photo1{
-    background-image: url("./Assets/img7.jpeg");
+    background-image: url("image/img7.jpeg");
     display: inline-block;
     height: 200px;
     width:400px;
@@ -226,7 +226,7 @@ gap:10px;
     border-radius: 20px;
 }
  .card-photo2{
-    background-image: url("./Assets/img7.jpeg" );
+    background-image: url("image/img1.jpg" );
     display: inline-block;
     height: 200px;
     width:400px;
